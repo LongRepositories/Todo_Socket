@@ -1,0 +1,27 @@
+{
+  "name": "devcamperapi",
+  "version": "1.0.0",
+  "description": "DevCamper Backend API",
+  "main": "server.js",
+  "scripts": {
+    "test": "NODE_ENV=production node server",
+    "dev": "nodemon server"
+  },
+  "author": "VVLong",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.1.7-alpha.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.4",
+    "morgan": "^1.9.1",
+    "node-geocoder": "^3.25.0",
+    "slugify": "^1.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
